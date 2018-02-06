@@ -1,0 +1,20 @@
+{
+  "name": "igorpadovan/cakephp-airbrake",
+  "description": "A CakePHP plugin to use Airbrake for errors and exceptions.",
+  "authors": [
+    {
+      "name": "igorpadovan",
+      "email": "igorpadovan@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "type": "cakephp-plugin",
+  "extra": {
+    "installer-name": "AirbrakeCake"
+  },
+  "require": {
+    "php": ">=5.3.0",
+    "composer/installers": "*",
+    "dbtlr/php-airbrake": "1.*"
+  }
+}
